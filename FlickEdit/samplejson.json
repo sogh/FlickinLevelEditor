@@ -1,0 +1,467 @@
+
+
+{
+    "Cards":
+    [{
+     "Name"        : "Up",
+     "Image"       : "blank_tile_insert",
+     "Text"        : "Up",
+     "TargetImage" : "blank_horizontal_target_tile",
+     "TargetSlot"  : "up"
+     },
+     {
+     "Name"        : "Left",
+     "Image"       : "blank_tile_insert",
+     "Text"        : "Left",
+     "TargetImage" : "blank_vertical_target_tile",
+     "TargetSlot"  : "left"
+     },
+     {
+     "Name"        : "Right",
+     "Image"       : "blank_tile_insert",
+     "Text"        : "Right",
+     "TargetImage" : "blank_vertical_target_tile",
+     "TargetSlot"  : "right"
+     },
+     {
+     "Name"        : "Down",
+     "Image"       : "blank_tile_insert",
+     "Text"        : "Down",
+     "TargetImage" : "blank_horizontal_target_tile",
+     "TargetSlot"  : "down"
+     },
+     {
+     "Name"        : "DownFr",
+     "Image"       : "blank_tile_insert",
+     "Text"        : "Bas",
+     "TargetImage" : "blank_horizontal_target_tile",
+     "TargetSlot"  : "down"
+     },
+     {
+     "Name"        : "UpFr",
+     "Image"       : "blank_tile_insert",
+     "Text"        : "Haut",
+     "TargetImage" : "blank_horizontal_target_tile",
+     "TargetSlot"  : "up"
+     },
+     {
+     "Name"        : "LeftFr",
+     "Image"       : "blank_tile_insert",
+     "Text"        : "Gauche",
+     "FontSize"    : 36,
+     "TargetImage" : "blank_vertical_target_tile",
+     "TargetSlot"  : "left"
+     },
+     {
+     "Name"        : "RightFr",
+     "Image"       : "blank_tile_insert",
+     "Text"        : "Droite",
+     "FontSize"    : 42,
+     "TargetImage" : "blank_vertical_target_tile",
+     "TargetSlot"  : "right"
+     },
+     
+     {
+     "Name"        : "Red",
+     "Image"       : "red_tile_insert",
+     "TargetImage" : "redtargettile",
+     "TargetSlot"  : "down"
+     },
+     {
+     "Name"        : "Blue",
+     "Image"       : "blue_tile_insert",
+     "TargetImage" : "bluetargettile",
+     "TargetSlot"  : "up"
+     },
+     {
+     "Name"        : "Green",
+     "Image"       : "green_tile_insert",
+     "TargetImage" : "greentargettile",
+     "TargetSlot"  : "left"
+     },
+     {
+     "Name"        : "Yellow",
+     "Image"       : "yellow_tile_insert",
+     "TargetImage" : "yellowtargettile",
+     "TargetSlot"  : "right"
+     },
+     {
+     "Name"        : "A",
+     "Image"       : "A_tile_insert",
+     "TargetImage" : "Atargettile",
+     "TargetSlot"  : "right"
+     },
+     {
+     "Name"        : "B",
+     "Image"       : "B_tile_insert",
+     "TargetImage" : "Btargettile",
+     "TargetSlot"  : "left"
+     },
+     {
+     "Name"        : "Start",
+     "Image"       : "start_tile_insert",
+     "TargetImage" : "starttargettile",
+     "TargetSlot"  : "up"
+     },
+     {
+     "Name"        : "Select",
+     "Image"       : "select_tile_insert",
+     "TargetImage" : "selecttargettile",
+     "TargetSlot"  : "down"
+     },
+     {
+     "Name"        : "North",
+     "Image"       : "north_tile_insert",
+     "TargetImage" : "northtargettile",
+     "TargetSlot"  : "up"
+     },
+     {
+     "Name"        : "South",
+     "Image"       : "south_tile_insert",
+     "TargetImage" : "southtargettile",
+     "TargetSlot"  : "down"
+     },
+     {
+     "Name"        : "East",
+     "Image"       : "east_tile_insert",
+     "TargetImage" : "easttargettile",
+     "TargetSlot"  : "right"
+     },
+     {
+     "Name"        : "West",
+     "Image"       : "west_tile_insert",
+     "TargetImage" : "westtargettile",
+     "TargetSlot"  : "left"
+     },
+     {
+     "Name"        : "UpArrow",
+     "Image"       : "uparrow_tile_insert",
+     "TargetImage" : "uptargettile",
+     "TargetSlot"  : "up"
+     },
+     {
+     "Name"        : "DownArrow",
+     "Image"       : "downarrow_tile_insert",
+     "TargetImage" : "downtargettile",
+     "TargetSlot"  : "down"
+     },
+     {
+     "Name"        : "LeftArrow",
+     "Image"       : "leftarrow_tile_insert",
+     "TargetImage" : "lefttargettile",
+     "TargetSlot"  : "left"
+     },
+     {
+     "Name"        : "RightArrow",
+     "Image"       : "rightarrow_tile_insert",
+     "TargetImage" : "righttargettile",
+     "TargetSlot"  : "right"
+     }
+     ],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    "Levels":
+    [{
+     "Name":"The Basics",
+     "Cardset":["Up","Left","Right","Down"],
+     "Time":30,
+     "NumberOfCards":10
+     },
+     {
+     "Name":"The Basics: More Cards",
+     "Cardset":["Up","Left","Right","Down"],
+     "Time":60,
+     "NumberOfCards":25
+     },
+     {
+     "Name":"The Basics: Faster",
+     "Cardset":["Up","Left","Right","Down"],
+     "Time":30,
+     "NumberOfCards":20
+     },
+     {
+     "Name":"The Basics: Bouncer",
+     "Cardset":["Up","Down","Left","Right"],
+     "Time":60,
+     "NumberOfCards":40,
+     "Deck":["Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down"]
+     },
+     {
+     "Name":"The Basics: Bouncer: More Cards",
+     "Cardset":["Up","Down","Left","Right"],
+     "Time":60,
+     "NumberOfCards":40,
+     "Deck":["Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down"]
+     },
+     {
+     "Name":"The Basics: Bouncer: Faster",
+     "Cardset":["Up","Down","Left","Right"],
+     "Time":40,
+     "NumberOfCards":40,
+     "Deck":["Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down"]
+     },
+     {
+     "Name":"The Basics: Paradiddle",
+     "Cardset":["Up","Down","Left","Right"],
+     "Time":32,
+     "NumberOfCards":32,
+     "Deck":["Right","Left","Right","Right","Left","Right","Left","Left","Right","Left","Right","Right","Left","Right","Left","Left","Right","Left","Right","Right","Left","Right","Left","Left","Right","Left","Right","Right","Left","Right","Left","Left"]
+     },
+     {
+     "Name":"The Basics: Paradiddle: More Cards",
+     "Cardset":["Up","Down","Left","Right"],
+     "Time":60,
+     "NumberOfCards":64,
+     "Deck":["Right","Left","Right","Right","Left","Right","Left","Left","Right","Left","Right","Right","Left","Right","Left","Left","Right","Left","Right","Right","Left","Right","Left","Left","Right","Left","Right","Right","Left","Right","Left","Left","Right","Left","Right","Right","Left","Right","Left","Left","Right","Left","Right","Right","Left","Right","Left","Left","Right","Left","Right","Right","Left","Right","Left","Left","Right","Left","Right","Right","Left","Right","Left","Left"]
+     },
+     {
+     "Name":"The Basics: Paradiddle: Faster",
+     "Cardset":["Up","Down","Left","Right"],
+     "Time":32,
+     "NumberOfCards":32,
+     "Deck":["Right","Left","Right","Right","Left","Right","Left","Left","Right","Left","Right","Right","Left","Right","Left","Left","Right","Left","Right","Right","Left","Right","Left","Left","Right","Left","Right","Right","Left","Right","Left","Left"]
+     },
+     {
+     "Name":"The Basics: Bouncer",
+     "Cardset":["Up","Down","Left","Right"],
+     "Time":30,
+     "NumberOfCards":20,
+     "Deck":["Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down"]
+     },
+     {
+     "Name":"The Basics: Bouncer: More Cards",
+     "Cardset":["Up","Down","Left","Right"],
+     "Time":60,
+     "NumberOfCards":40,
+     "Deck":["Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down"]
+     },
+     {
+     "Name":"The Basics: Bouncer: Faster",
+     "Cardset":["Up","Down","Left","Right"],
+     "Time":40,
+     "NumberOfCards":40,
+     "Deck":["Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down","Up","Down"]
+     },
+     
+     
+     
+     
+     
+     
+     {
+     "Name":"Arrows",
+     "Cardset":["UpArrow","DownArrow","LeftArrow","RightArrow"],
+     "Time":30,
+     "NumberOfCards":10
+     },
+     {
+     "Name":"Arrows: More Cards",
+     "Cardset":["UpArrow","DownArrow","LeftArrow","RightArrow"],
+     "Time":50,
+     "NumberOfCards":30
+     },
+     {
+     "Name":"Arrows: Faster",
+     "Cardset":["UpArrow","DownArrow","LeftArrow","RightArrow"],
+     "Time":30,
+     "NumberOfCards":30
+     },
+     
+     
+     
+     {
+     "Name":"Compass",
+     "Cardset":["North","South","East","West"],
+     "Time":35,
+     "NumberOfCards":25
+     },
+     
+     {
+     "Name":"Compass: More Cards",
+     "Cardset":["North","South","East","West"],
+     "Time":40,
+     "NumberOfCards":35
+     },
+     
+     {
+     "Name":"Compass: Faster",
+     "Cardset":["North","South","East","West"],
+     "Time":25,
+     "NumberOfCards":35
+     },
+     
+     
+     
+     {
+     "Name":"Colors",
+     "Cardset":["Red","Green","Blue","Yellow"],
+     "Time":30,
+     "NumberOfCards":10
+     },
+     {
+     "Name":"Colors: More Cards",
+     "Cardset":["Red","Green","Blue","Yellow"],
+     "Time":30,
+     "NumberOfCards":20
+     },
+     {
+     "Name":"Colors: Faster",
+     "Cardset":["Red","Green","Blue","Yellow"],
+     "Time":20,
+     "NumberOfCards":20
+     },
+     
+     
+     
+     
+     {
+     "Name":"Mixer",
+     "Cardset":["Up","Green","Right","Red"],
+     "Time":30,
+     "NumberOfCards":10
+     },
+     {
+     "Name":"Mixer: More Cards",
+     "Cardset":["Up","Green","Right","Red"],
+     "Time":30,
+     "NumberOfCards":20
+     },
+     {
+     "Name":"Mixer: Faster",
+     "Cardset":["Up","Green","Right","Red"],
+     "Time":20,
+     "NumberOfCards":20
+     },
+     
+     
+     
+     {
+     "Name":"Megalevel",
+     "Cardset":["Up","Left","Right","Down","Red","Blue","Green","Yellow"],
+     "Time":60,
+     "NumberOfCards":20
+     },
+     {
+     "Name":"Megalevel: More Cards",
+     "Cardset":["Up","Left","Right","Down","Red","Blue","Green","Yellow"],
+     "Time":60,
+     "NumberOfCards":40
+     },
+     {
+     "Name":"Megalevel: Faster",
+     "Cardset":["Up","Left","Right","Down","Red","Blue","Green","Yellow"],
+     "Time":50,
+     "NumberOfCards":40
+     },
+     {
+     "Name":"Megalevel: Bouncer",
+     "Cardset":["Up","Left","Right","Down","Red","Blue","Green","Yellow"],
+     "Time":45,
+     "NumberOfCards":24,
+     "Deck":["Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down","Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down"]
+     },
+     {
+     "Name":"Megalevel: Bouncer: More Cards",
+     "Cardset":["Up","Left","Right","Down","Red","Blue","Green","Yellow"],
+     "Time":60,
+     "NumberOfCards":48,
+     "Deck":["Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down","Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down","Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down"]
+     },
+     {
+     "Name":"Megalevel: Bouncer: Faster",
+     "Cardset":["Up","Left","Right","Down","Red","Blue","Green","Yellow"],
+     "Time":24,
+     "NumberOfCards":24,
+     "Deck":["Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down","Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down", "Up", "Red", "Blue", "Down"]
+     },
+     
+     
+     
+     
+     
+     {
+     "Name":"Bouncer",
+     "Cardset":["Up","Down","Left","Right","Red","Blue","Green","Yellow"],
+     "Time":60,
+     "NumberOfCards":40,
+     "Pattern":"Bouncer"
+     },
+     
+     {
+     "Name":"Paradiddle",
+     "Cardset":["Up","Down","Left","Right"],
+     "Time":32,
+     "NumberOfCards":32,
+     "Pattern":"Paradiddle"
+     },
+     
+     {
+     "Name":"Ordered",
+     "Cardset":["Up","Down","Left","Right"],
+     "Time":12,
+     "NumberOfCards":20,
+     "Deck":["Up","Down","Right","Left","Up","Down","Right","Left","Up","Down","Right","Left","Up","Down","Right","Left","Up","Down","Right","Left"]
+     },
+     {
+     "Name":"Around The World",
+     "Cardset":["Up","Down","Left","Right"],
+     "Time":12,
+     "NumberOfCards":20,
+     "Pattern":"AroundTheWorld"
+     },
+     {
+     "Name":"Reflection",
+     "Cardset":["Up","Down","Left","Right"],
+     "Time":12,
+     "NumberOfCards":24,
+     "Pattern":"Reflection"
+     },
+     {
+     "Name":"Konami",
+     "Cardset":["Up","Down","Left","Right","A","B","Start"],
+     "Time":11,
+     "NumberOfCards":11,
+     "Deck":["Up","Up","Down","Down","Left","Right","Left","Right","B","A","Start"]
+     },
+     {
+     "Name":"26.2",
+     "Cardset":["Up","Down","Left","Right","Red","Green","Blue", "Yellow"],
+     "Time":5,
+     "NumberOfCards":10,
+     "Marathon":"YES"
+     },
+     {
+     "Name":"French: Beginner",
+     "Cardset":["UpFr","DownFr","LeftFr","RightFr"],
+     "Time":30,
+     "NumberOfCards":4,
+     "Deck":["UpFr","RightFr","DownFr","LeftFr"]
+     },
+     {
+     "Name":"French: Around The World",
+     "Cardset":["UpFr","DownFr","LeftFr","RightFr"],
+     "Time":30,
+     "NumberOfCards":2,
+     "Deck":["UpFr","RightFr","DownFr","LeftFr","UpFr","RightFr","DownFr","LeftFr","UpFr","RightFr","DownFr","LeftFr","UpFr","RightFr","DownFr","LeftFr","UpFr","RightFr","DownFr","LeftFr"]
+     }
+     ]
+    
+}
+
+
+
+
+
+
