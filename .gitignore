@@ -1,2 +1,6 @@
 
 *.sqlite3
+
+*.sqlite3
+
+FlickEdit/db.sqlite3
