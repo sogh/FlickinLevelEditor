@@ -9,4 +9,6 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^Flick/', include('Flick.urls')),
+    url(r'^flick/', include('Flick.urls')),
 )

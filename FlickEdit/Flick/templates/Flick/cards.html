@@ -1,0 +1,21 @@
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'Flick/flick.css' %}" />
+
+<h1> Cards </h1>
+{% for card in FlickCards %}
+	<div class="modern">
+
+		<h2>{{ card.name }}</h2>
+		<p>{{ card.image }}</p>
+		<p>{{ card.text }}</p>
+		<p>{{ card.targetName }}</p>
+
+	</div>
+{% endfor %}
+<p>
+	<a href="new">Add a card...</a>
+</p>
+<p>
+	<a href="/Flick/">Main Menu</a>
+</p>
+</body>

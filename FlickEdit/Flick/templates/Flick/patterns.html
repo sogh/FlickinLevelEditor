@@ -1,0 +1,84 @@
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'Flick/flick.css' %}" />
+
+
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("Text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("Text");
+
+    var newElement = document.getElementById(data);
+
+    newElement = newElement.cloneNode(true);
+
+    ev.target.appendChild(newElement);
+}
+</script>
+
+
+
+<div class="wrapper">
+
+	<div class="leftfloat"> 
+
+		<h1> Patterns </h1>
+
+		{% for patternName, patternList in FlickPatterns.iteritems %}
+			<div class="modern2">
+
+				<h2>{{ patternName }}</h2>
+				<p>{% for entry in patternList %}
+				{{ entry }},
+				{% endfor %}
+				</p>
+
+				<div style="width:80px;height:80px;" ondrop="drop(event)" ondragover="allowDrop(event)">
+					Drop it here bro
+				</div>
+
+			</div><br>
+		{% endfor %}
+
+		<div class="modern2" >
+			<p>
+			<form action="/Flick/patterns/new/" method="post">
+				{% csrf_token %}
+
+				{{ NewPatternForm.as_p }}
+
+				<input type="submit" value="Add Pattern" />
+			</form>
+			</p>
+		</div>
+		<p>
+			<a href="/Flick/">Main Menu</a>
+		</p>
+
+	</div>
+
+	<div class="rightfloat">
+		<h1>Cards</h1>
+
+		{% for cardName, card in FlickCards.iteritems %}
+
+		<div id="{{cardName}}" class="modern" style="width:60px; margin: 0px" ondragstart="drag(event)" draggable="true">
+
+			{{ cardName }}
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</div> 
+
+</body>
